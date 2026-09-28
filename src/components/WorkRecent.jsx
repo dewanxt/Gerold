@@ -20,7 +20,7 @@ const worksData = [
     { id: 6, image: SliderImg3, title: 'Sebastian', description: 'Project was about precision and information...' },
 ];
 
-const Slider = SliderModule.default;
+const Slider = SliderModule;
 
 // The items for the marquee
 const marqueeItems = ['GRAPHIC', 'DESIGN', 'MOTION', 'DEVELOPMENT', 'DESIGN', 'DEVELOPMENT', 'WEBFLOW', 'GRAPHIC'];
@@ -137,7 +137,7 @@ const WorkRecent = () => {
                         numCopies={6}
                         damping={50}
                         stiffness={400}
-                         className='flex items-center'
+                        className='flex items-center'
                     />
                 </div>
 
